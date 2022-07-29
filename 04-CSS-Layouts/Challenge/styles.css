@@ -151,12 +151,12 @@ body {
 }
 
 .product-info {
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .product-details {
   margin-right: 20px;
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .product-card {
