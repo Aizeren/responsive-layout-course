@@ -151,15 +151,29 @@ body {
 }
 
 .product-info {
-  flex: 1 1 auto;
+  /* flex: 1 1 0; */
 }
 
 .product-details {
   margin-right: 20px;
-  flex: 1 1 auto;
+  /* flex: 1 1 0; */
 }
 
-.product-card {
+/* .product-card {
   display: flex;
   gap: 40px;
+} */
+
+.product {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  column-gap: 40px;
+}
+
+.product-title {
+  grid-column: 1 / -1;
+}
+
+.add-cart {
+  grid-column: 1 / -1;
 }
